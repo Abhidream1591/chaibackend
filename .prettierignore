@@ -1,0 +1,5 @@
+/.vscode/web_modules
+./dist
+*.env
+.env
+.env.*
