@@ -10,8 +10,8 @@ const connectDB = async()=>{
 
     }catch(error){
         console.log("MONGODB connection FAILED", error);
-        process.exit(1)
-    }
+        process.exit(1)  // process.exit(0) means end the process without any kind of failure or process.exit(1) means end the process with some failure.
+    } 
 }
 
 export default connectDB
